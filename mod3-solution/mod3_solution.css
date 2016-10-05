@@ -1,0 +1,90 @@
+body {
+	background-color: Moccasin;
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+	color: black;
+	text-align: center;
+}
+
+#header-nav {
+	background-color: teal;
+	border-radius: 0; 
+	border: 0;	
+}
+
+.navbar-brand h1{
+	color: Moccasin;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #222;
+	line-height: 0.75;
+	height: 30px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+button.navbar-toggle {
+	margin-top: 25px;
+
+}
+
+
+#nav-list a:hover {
+	background: Moccasin;
+
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: Moccasin;
+	text-align: center;
+}
+
+/* Main content*/
+
+#main-content {
+	background-color: teal;
+}
+div > h2 {
+	text-align: center;
+	color: teal;
+	font-weight: bold;
+	font-size: 2em;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+div > h3 {
+	font-size: 1em;
+	font-weight: bold;
+	color: Moccasin;
+}
+
+p {
+	text-align: left;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#nav-list a {
+	color: teal;
+}
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#nav-list a {
+	color: teal;
+}
+
+}
+
+@media (min-width: 1200px){
+	#nav-list a {
+	color: teal;
+}
+
+}
